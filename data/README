@@ -1,0 +1,21 @@
+# Data directory
+
+Place datasets under this directory before training.
+
+Expected citation/coauthorship layout:
+
+```text
+data/
+  cocitation/
+    cora/
+    citeseer/
+  coauthorship/
+    cora/
+    dblp/
+```
+
+Each citation/coauthorship directory must contain `features.pickle`,
+`labels.pickle`, and `hypergraph.pickle` from the HyperGCN-format data.
+
+For `ModelNet40` and `NTU2012`, place the corresponding `.content` and `.edges`
+files in `data/ModelNet40/` and `data/NTU2012/`.
