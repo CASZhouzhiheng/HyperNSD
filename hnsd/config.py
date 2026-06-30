@@ -1,4 +1,4 @@
-"""Command-line configuration for HNSD experiments."""
+"""Command-line configuration for HyperNSD experiments."""
 
 from __future__ import annotations
 
